@@ -1,0 +1,39 @@
+main{
+    padding: 2vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+div.contenedor{
+    border: 1px black solid;
+    padding: 1vh;
+    height: 61vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+input{
+    height: 10vh;
+    font-size: 1rem;
+    text-align: end;
+}
+
+div.col-12{
+    display: flex;
+    gap: 2vh;
+    height: 10vh;
+}
+
+button{
+    border-radius: 2vh !important;
+    border: 1px lightgray solid;
+
+}
+
+button:hover{
+    background-color: lightskyblue;
+}
+
