@@ -1,0 +1,18 @@
+aside {
+    background-color: #F8F9FA;
+}
+
+footer.container-fluid {
+    padding: 2vh;
+    background-color: #198754;
+}
+
+footer>div.row>div.col-4 {
+    text-align: center;
+    color: white;
+}
+
+
+.nav-item > *{
+    color: black;
+}
