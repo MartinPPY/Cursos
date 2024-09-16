@@ -1,18 +1,31 @@
-aside {
-    background-color: #F8F9FA;
-}
-
-footer.container-fluid {
+section{
+    display: flex;
+    justify-content: center;
     padding: 2vh;
-    background-color: #198754;
 }
-
-footer>div.row>div.col-4 {
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 2vh;
+    border: 1px black solid;
+}
+h1{
     text-align: center;
-    color: white;
+}
+h3{
+    text-align: center;
 }
 
+input{
+    padding: 1vh;
+    border: 1px lightgray solid;
+    outline: none;
+}
 
-.nav-item > *{
-    color: black;
+button{
+    border: none;
+    padding: 1vh;
+    color: white;
+    outline: none;
 }

@@ -12,58 +12,21 @@
 
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><i class="bi bi-flower1"></i></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Opciones <i class="bi bi-sliders"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Agregar producto</a></li>
-                                <li><a class="dropdown-item" href="#">Editar producto</a></li>
-                                <li><a class="dropdown-item" href="#">Eliminar producto</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar...">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
+<body>  
     <main class="container-fluid">
         <section class="row">
+            <article class="col-6">
+                <h1>Aplicacion del clima <i class="bi bi-cloud-sun-fill"></i></h1>
+                <h3>Ingresa una cuidad para ver su clima actual</h3>
+                <input type="text" placeholder="Ingresa una ciudad">
+                <button class="bg-success">Buscar</button>
+                <h4 id="country"></h4>
+                <h4 id="temp"></h4>
+                <h4 id="desc"></h4>
+            </article>
         </section>
     </main>
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-4">
-                @Inventarioplantas
-            </div>
-            <div class="col-4">
-                Todos los derechos reservados
-            </div>
-            <div class="col-4">
-                Primer proyecto web
-            </div>
-        </div>
-    </footer>
+    <script src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
