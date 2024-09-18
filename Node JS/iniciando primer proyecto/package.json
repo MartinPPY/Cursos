@@ -1,0 +1,16 @@
+{
+  "name": "iniciando-primer-proyecto",
+  "version": "1.0.0",
+  "description": "primer proyecto del curso",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "martin",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.5"
+  }
+}
