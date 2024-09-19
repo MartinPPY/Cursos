@@ -1,0 +1,23 @@
+#las tabulaciones deben ser correctas
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:latest
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USER}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASS}
+    volumes:
+      - ./mongo:/data/db
+    ports:
+      - 27017:27017
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: ${MONGO_USER} # Debe coincidir con el usuario definido en el servicio MongoDB
+      ME_CONFIG_MONGODB_ADMINPASSWORD: ${MONGO_PASS}
+    ports:
+      - 8081:8081

@@ -96,7 +96,8 @@ Codigos mas usados
 500: error del servidor
 503: service no disponible
 
-
+comando para instalar express
+- npm i express y npm i --save-dev @types/express
 
 
 
