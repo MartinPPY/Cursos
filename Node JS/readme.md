@@ -68,6 +68,34 @@ para ser mas estrictos podemos usar otra libreria que se llama envar para instal
 Un middleware en NodeJS es una funcion que se ejecuta entre una solicitud y una respuesta, hace que sea mas flexible manejar diversas
 tareas y funcionalidades
 
+**Metodos HTTP**
+- GET: Traer informacion
+- POST: Mandar informacion, se manda algo
+- PUT: Reemplazar un objeto por uno nuevo
+- PATCH: Parchar el atributo de un objeto
+- DELETE: Borrar
+
+**Codigos HTTP**
+existen 5 categorias, los codigos son de 3 digitos:
+- 1xx: respuestas informativas
+- 2xx: respuestas exitosas
+- 3xx: Redireccion
+- 4xx: error del cliente
+- 5xx: error del servidor
+
+Codigos mas usados
+200: OK
+201: creado
+204: no contenido
+301: Existe una redireccion permanente
+302: encontrado
+304: no modificado
+400: mala peticion
+401: sin autorización
+404: no encontrado
+500: error del servidor
+503: service no disponible
+
 
 
 
