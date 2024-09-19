@@ -14,3 +14,8 @@ creacion de un servidor web
 12. configurar las variables de entorno y exportar el archivo js dentro de config
 13. luego en server importar el env.js en index.js
 14. instalar express
+
+
+**Las variables de entorno deben de ser**
+port: numero
+public_path: string
